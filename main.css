@@ -160,10 +160,57 @@ p {
 .subscribe {
 	background: black url('./assets/pexels-christina-morillo.png') no-repeat
 		center;
-	padding: 10px;
+	padding: 217px 0;
 	text-align: center;
 }
 .subscribe h2 {
-	margin-top: 207px;
 	color: white;
+}
+
+.subscribe form {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subscribe form input {
+	border: none;
+	margin: none;
+	width: 340px;
+	height: 44px;
+	padding-left: 24px;
+}
+
+.subscribe form button {
+	border: none;
+	margin: none;
+	background: #00afdb;
+	width: 66px;
+	height: 46px;
+}
+
+/* Download section  */
+
+.download {
+	background: #f5f6f7;
+	text-align: center;
+	padding: 120px 0 180px;
+}
+.download p {
+	margin-top: 20px;
+}
+.download .buttons {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+.download-btn {
+	display: inline-block;
+
+	border: none;
+	margin: none;
+	background-color: #00afdb;
+	width: 188px;
+	height: 50px;
 }
