@@ -1,0 +1,169 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 64px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #373737;
+}
+
+h3 {
+	font-size: 16px;
+}
+p {
+	font-size: 14px;
+	line-height: 140%;
+	color: #4e4e4e;
+}
+
+/* Reusable items */
+.header-btn {
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: #00afdb;
+	padding: 15px 47px;
+	margin-top: 30px;
+}
+
+/* Header section */
+
+.header {
+	background: black url('./assets/bg-image.png') no-repeat center;
+	padding: 25px 0 89px;
+	text-align: center;
+	color: white;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navigation .logo {
+	padding: 0 15px;
+	opacity: 1;
+}
+
+.navigation li {
+	margin: 0 42.5px;
+	list-style: none;
+	opacity: 0.8;
+}
+
+.navigation a {
+	color: inherit;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 140%;
+}
+
+.header h1 {
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 75px;
+	letter-spacing: 4.5px;
+	margin-top: 162px;
+}
+.header p {
+	color: white;
+	max-width: 504px;
+	font-size: 18px;
+	margin: 20px auto 0;
+}
+
+.sm-icons {
+	margin-top: 183px;
+	display: flex;
+	justify-content: center;
+}
+.sm-icons li {
+	margin: 0 15px;
+}
+
+/* Offer section */
+.offer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 120px 270px 140px;
+}
+
+.offer-description h2 {
+	width: 370px;
+}
+.offer-description p {
+	margin-top: 20px;
+	width: 407px;
+}
+
+/* Comunity section  */
+.community {
+	background: #f5f6f7;
+	padding: 120px 0 140px 270px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.community-info {
+	width: 300px;
+	text-align: center;
+}
+
+.community-info h3 {
+	color: #373737;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 2.4px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.community-info p {
+	margin-top: 10px;
+}
+
+.img-widget {
+	text-align: center;
+}
+
+/* Learn-more section */
+
+.learn-more {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 120px 270px 140px;
+}
+
+.learn-more-info {
+	margin-left: 139px;
+}
+
+.learn-more-info p {
+	margin-top: 20px;
+}
+/* Subscribe section  */
+
+.subscribe {
+	background: black url('./assets/pexels-christina-morillo.png') no-repeat
+		center;
+	padding: 10px;
+	text-align: center;
+}
+.subscribe h2 {
+	margin-top: 207px;
+	color: white;
+}
