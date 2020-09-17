@@ -206,11 +206,48 @@ p {
 	justify-content: center;
 }
 .download-btn {
-	display: inline-block;
-
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
 	border: none;
-	margin: none;
+	margin: 0 15px;
 	background-color: #00afdb;
 	width: 188px;
 	height: 50px;
+	padding: 0px;
+}
+
+.download-btn p {
+	font-size: 14px;
+	color: ivory;
+}
+
+.download-btn img {
+	background: #009cc2;
+	width: 60px;
+	height: 49px;
+}
+
+/* footer */
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	padding: 60px 160px 60px;
+	font-size: 14px;
+}
+.footer li {
+	display: block;
+}
+
+.footer li a {
+	text-decoration: none;
+	color: white;
+	margin-right: 40px;
+}
+
+.footer img {
+	position: relative;
+	left: -80px;
 }
