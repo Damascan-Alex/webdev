@@ -1,10 +1,50 @@
+/* General fromating */
 body {
 	font-family: 'Roboto', sans-serif;
 	max-width: 1600px;
+	padding: 0;
 	margin: 0 auto;
 }
+
+div,
+p,
+input,
+header,
+a,
+form {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+em {
+	font-weight: bold;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+
 h1 {
 	font-size: 64px;
+	line-height: 75px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 4.5px;
 }
 
 h2 {
@@ -18,6 +58,11 @@ h2 {
 
 h3 {
 	font-size: 16px;
+	color: #373737;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 2.4px;
+	text-transform: uppercase;
 }
 p {
 	font-size: 14px;
@@ -35,16 +80,13 @@ p {
 	background: #00afdb;
 	padding: 15px 47px;
 	margin-top: 30px;
+	cursor: pointer;
+}
+.header-btn:hover {
+	opacity: 0.8;
 }
 
 /* Header section */
-
-.header {
-	background: black url('./assets/bg-image.png') no-repeat center;
-	padding: 25px 0 89px;
-	text-align: center;
-	color: white;
-}
 
 .navigation {
 	display: flex;
@@ -69,11 +111,14 @@ p {
 	line-height: 140%;
 }
 
+.header {
+	background: black url('./assets/bg-image.png') no-repeat center;
+	padding: 25px 0 89px;
+	text-align: center;
+	color: white;
+}
+
 .header h1 {
-	font-weight: bold;
-	text-transform: uppercase;
-	line-height: 75px;
-	letter-spacing: 4.5px;
 	margin-top: 162px;
 }
 .header p {
@@ -90,20 +135,24 @@ p {
 }
 .sm-icons li {
 	margin: 0 15px;
+	opacity: 0.8;
+}
+.sm-icons li:hover {
+	opacity: 1;
 }
 
-/* Offer section */
-.offer {
+/* Represent section */
+.represent {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 120px 270px 140px;
 }
 
-.offer-description h2 {
+.represent-description h2 {
 	width: 370px;
 }
-.offer-description p {
+.represent-description p {
 	margin-top: 20px;
 	width: 407px;
 }
@@ -111,23 +160,18 @@ p {
 /* Comunity section  */
 .community {
 	background: #f5f6f7;
-	padding: 120px 0 140px 270px;
+	padding: 85px 0 140px 270px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .community-info {
+	margin-top: 70px;
 	width: 300px;
 	text-align: center;
 }
 
 .community-info h3 {
-	color: #373737;
-	font-weight: 500;
-	line-height: 20px;
-	letter-spacing: 2.4px;
-	text-transform: uppercase;
 	margin-top: 20px;
 }
 
@@ -135,24 +179,44 @@ p {
 	margin-top: 10px;
 }
 
-.img-widget {
-	text-align: center;
+.img-navigation {
+	margin-left: 545px;
 }
 
-/* Learn-more section */
+.img-navigation li {
+	display: inline;
+}
+.img-navigation li a {
+	margin: 0 5px;
+	font-size: 18px;
+	color: inherit;
+	text-decoration: none;
+}
 
-.learn-more {
+.img-block {
 	display: flex;
-	justify-content: space-between;
+	width: 894px;
+	margin-top: 18px;
+	overflow: hidden;
+}
+.img-block img {
+	margin-right: 30px;
+}
+
+/* Implement section */
+
+.implement {
+	display: flex;
 	align-items: center;
 	padding: 120px 270px 140px;
 }
 
-.learn-more-info {
+.implement-info {
 	margin-left: 139px;
 }
 
-.learn-more-info p {
+.implement-info p {
+	width: 407px;
 	margin-top: 20px;
 }
 /* Subscribe section  */
@@ -160,7 +224,7 @@ p {
 .subscribe {
 	background: black url('./assets/pexels-christina-morillo.png') no-repeat
 		center;
-	padding: 217px 0;
+	padding: 217px 0 277px;
 	text-align: center;
 }
 .subscribe h2 {
@@ -178,7 +242,7 @@ p {
 	border: none;
 	margin: none;
 	width: 340px;
-	height: 44px;
+	height: 46px;
 	padding-left: 24px;
 }
 
@@ -189,7 +253,10 @@ p {
 	width: 66px;
 	height: 46px;
 }
-
+.subscribe form button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
 /* Download section  */
 
 .download {
@@ -198,7 +265,8 @@ p {
 	padding: 120px 0 180px;
 }
 .download p {
-	margin-top: 20px;
+	width: 483px;
+	margin: 20px auto 0;
 }
 .download .buttons {
 	margin-top: 30px;
@@ -206,26 +274,14 @@ p {
 	justify-content: center;
 }
 .download-btn {
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
 	border: none;
+	padding: 0;
 	margin: 0 15px;
-	background-color: #00afdb;
-	width: 188px;
-	height: 50px;
-	padding: 0px;
+	cursor: pointer;
+	background: none;
 }
-
-.download-btn p {
-	font-size: 14px;
-	color: ivory;
-}
-
-.download-btn img {
-	background: #009cc2;
-	width: 60px;
-	height: 49px;
+.download-btn img:hover {
+	opacity: 0.8;
 }
 
 /* footer */
@@ -249,5 +305,5 @@ p {
 
 .footer img {
 	position: relative;
-	left: -80px;
+	left: -60px;
 }
