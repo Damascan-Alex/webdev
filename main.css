@@ -92,14 +92,16 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+	left: 36px;
 }
 .navigation .logo {
-	padding: 0 15px;
+	padding: 0 16px;
 	opacity: 1;
 }
 
 .navigation li {
-	margin: 0 42.5px;
+	margin-right: 85px;
 	list-style: none;
 	opacity: 0.8;
 }
@@ -113,13 +115,13 @@ p {
 
 .header {
 	background: black url('./assets/bg-image.png') no-repeat center;
-	padding: 25px 0 89px;
+	padding: 29px 0 89px;
 	text-align: center;
 	color: white;
 }
 
 .header h1 {
-	margin-top: 162px;
+	margin-top: 159px;
 }
 .header p {
 	color: white;
