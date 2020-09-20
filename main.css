@@ -88,6 +88,14 @@ p {
 
 /* Header section */
 
+.header {
+	background: black;
+	/* background: black url('./assets/bg-image.png') no-repeat center; */
+	padding: 29px 0 0;
+	text-align: center;
+	color: white;
+}
+
 .navigation {
 	display: flex;
 	justify-content: center;
@@ -112,18 +120,16 @@ p {
 	font-size: 14px;
 	line-height: 140%;
 }
-
-.header {
-	background: black url('./assets/bg-image.png') no-repeat center;
-	padding: 29px 0 89px;
+.your-life {
 	text-align: center;
 	color: white;
+	background: black url('./assets/bg-image.png') no-repeat bottom center;
+	padding: 61px 0 49px;
 }
-
-.header h1 {
-	margin-top: 159px;
+.your-life h1 {
+	margin-top: 30px;
 }
-.header p {
+.your-life p {
 	color: white;
 	max-width: 504px;
 	font-size: 18px;
@@ -182,11 +188,11 @@ p {
 }
 
 .img-navigation {
-	margin-left: 545px;
+	margin-left: 546px;
 }
 
 .img-navigation li {
-	display: inline;
+	display: inline-block;
 }
 .img-navigation li a {
 	margin: 0 5px;
@@ -296,16 +302,20 @@ p {
 	font-size: 14px;
 }
 .footer li {
-	display: block;
+	font-weight: 400;
+	color: grey;
+	display: inline;
+	opacity: 0.9;
+	margin-right: 15px;
 }
 
 .footer li a {
-	text-decoration: none;
 	color: white;
-	margin-right: 40px;
+	opacity: 1;
+	text-decoration: none;
 }
 
 .footer img {
 	position: relative;
-	left: -60px;
+	left: -42px;
 }
