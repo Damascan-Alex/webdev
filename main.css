@@ -70,6 +70,10 @@ p {
 	color: #4e4e4e;
 }
 
+span {
+	border-bottom: 1px solid white;
+}
+
 /* Reusable items */
 .header-btn {
 	display: inline-block;
@@ -90,7 +94,6 @@ p {
 
 .header {
 	background: black;
-	/* background: black url('./assets/bg-image.png') no-repeat center; */
 	padding: 29px 0 0;
 	text-align: center;
 	color: white;
@@ -114,12 +117,18 @@ p {
 	opacity: 0.8;
 }
 
+.navigation li:hover {
+	opacity: 1;
+}
+
 .navigation a {
 	color: inherit;
 	text-decoration: none;
 	font-size: 14px;
 	line-height: 140%;
 }
+/* your-life section */
+
 .your-life {
 	text-align: center;
 	color: white;
