@@ -109,6 +109,7 @@ span {
 .navigation .logo {
 	padding: 0 16px;
 	opacity: 1;
+	border-bottom: none !important;
 }
 
 .navigation li {
@@ -119,6 +120,7 @@ span {
 
 .navigation li:hover {
 	opacity: 1;
+	border-bottom: 1px solid white;
 }
 
 .navigation a {
@@ -174,7 +176,7 @@ span {
 	width: 407px;
 }
 
-/* Comunity section  */
+/* Community section  */
 .community {
 	background: #f5f6f7;
 	padding: 85px 0 140px 270px;
@@ -238,24 +240,24 @@ span {
 }
 /* Subscribe section  */
 
-.subscribe {
+.sign-up {
 	background: black url('./assets/pexels-christina-morillo.png') no-repeat
 		center;
 	padding: 217px 0 277px;
 	text-align: center;
 }
-.subscribe h2 {
+.sign-up h2 {
 	color: white;
 }
 
-.subscribe form {
+.sign-up form {
 	margin-top: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.subscribe form input {
+.sign-up form input {
 	border: none;
 	margin: none;
 	width: 340px;
@@ -263,14 +265,14 @@ span {
 	padding-left: 24px;
 }
 
-.subscribe form button {
+.sign-up form button {
 	border: none;
 	margin: none;
 	background: #00afdb;
 	width: 66px;
 	height: 46px;
 }
-.subscribe form button:hover {
+.sign-up form button:hover {
 	opacity: 0.8;
 	cursor: pointer;
 }
