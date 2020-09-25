@@ -87,7 +87,7 @@ span {
 	cursor: pointer;
 }
 .header-btn:hover {
-	opacity: 0.8;
+	background: #009CC2;
 }
 
 /* Header section */
@@ -104,7 +104,7 @@ span {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	left: 36px;
+	margin-left: 66px;
 }
 .navigation .logo {
 	padding: 0 16px;
@@ -263,6 +263,10 @@ span {
 	width: 340px;
 	height: 46px;
 	padding-left: 24px;
+}
+
+.sign-up form input:focus {
+	outline: none;
 }
 
 .sign-up form button {
