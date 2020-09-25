@@ -277,9 +277,13 @@ span {
 	height: 46px;
 }
 .sign-up form button:hover {
-	opacity: 0.8;
+	background: #009CC2;
 	cursor: pointer;
 }
+.sign-up form button:focus {
+	outline: none;
+}
+
 /* Download section  */
 
 .download {
